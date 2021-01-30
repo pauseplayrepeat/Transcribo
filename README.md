@@ -198,6 +198,6 @@ Team - [@just_a_folk](https://twitter.com/just_a_folk) -
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://github.com/justafolk/Transcribo/tree/main/flask%20app/templates/ss.jpeg
-[product-screenshot1]: https://github.com/justafolk/Transcribo/tree/main/flask%20app/templates/ss2.jpeg
+[product-screenshot]: Images/ss.jpeg
+[product-screenshot1]: Images/ss2.jpeg
 
