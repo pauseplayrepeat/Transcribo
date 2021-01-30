@@ -61,7 +61,7 @@ For eg:
 * Students can use the returned document as reference or side notes for studying.
 * It's tedious to just read a transcript of the words spoken, so it adds highlights to the content to be aware what part interests someone!
 
-Of course, this project is at it's initial stage, but with more data and more model validation, it can turn out to quite useful.
+Of course, this project is at it's initial stage, but with more data and more model validation, it can turn out to be quite useful.
 
 
 ### Built With
