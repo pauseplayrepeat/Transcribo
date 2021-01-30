@@ -57,7 +57,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#System Implementation">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -122,16 +122,50 @@ Just add your video title and files_path variable, and you are good to go!
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## System Implementation
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Firstly the project is based on Flask, so all the data dealing is done by the
+framework smoothly. The first real task of the program is to convert the
+video file provided to an .wav audio file for transcription. We did this using
+a package called moviepy. Then the output audio clip was gone through
+Google’s Speech recognition API in a loop to cover the whole audio. The
+transcription from the API was saved in a local .txt file for better use. We
+tried to append the whole transcription to a single string, but we got some
+runtime issues (Basically out of RAM). Though Google API is one of the
+best speech Recognition API out there, it doesn’t punctuate the text in the
+output. Thus, we came across a pre-trained punctuation model based on
+theano and a package called “punctuator”. We punctuated our text with
+the model itself. The summarization process: For getting the summary out
+of the text, we went through several options, and chose Scikit learn’s
+tfidfvectorizer. The process seems to be complicated but was quite easy.
+First, dividing the text with sentences with the help of punctuations, then
+tokenize each word with the help of nltk’s word_tokenise. Then getting
+the average of frequency of words and removing stopwords/regular words
+from the text. Then calculating the importance or Accuracy of the words in
+the sentence. Then with that accuracy, calculate which sentences are
+more valuable. Lastly, adding the sentences with the highest threshold to
+the cut of final summary. And all the data we obtained from the following
+system is given out as html with the help of Flask!
 
 
 
 <!-- ROADMAP -->
-
+## Applications
+This project has wide range of applications, some of which are listed
+below:-
+1. For School/College Students, to get notes, if they missed any
+class by chance.
+2. For School/College Students, to get notes with highlighted
+keywords, to revise the class during examinations.
+3. For Business professionals to get the minutes of meeting.
+4. For all the online events and workshops, which happens online,
+and after that report is to be prepared.
+5. To know the name of medicines and brief of call, when the
+doctor consults the patients online using video/audio call.
+6. To store the financial based startup’s (like policy bazaar) call data
+in transcripted files, for future evidence and reference.
+7. For all Specially abled who can’t hear the audio/video can see
+the transcription.
 
 
 <!-- CONTRIBUTING -->
