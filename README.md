@@ -157,8 +157,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@just_a_folk](https://twitter.com/just_a_folk) - 
-
+Team - [@just_a_folk](https://twitter.com/just_a_folk) - 
+       [@MeeraliN](https://github.com/MeeraliN)-
 
 
 
