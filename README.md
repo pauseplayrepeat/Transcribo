@@ -38,7 +38,7 @@
       </ul>
     </li>
     <li><a href="#System Implementation">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -51,8 +51,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/justafolk/Transcribo/flask app/templates/ss.jpeg)
-[![Product Name Screen Shot][product-screenshot]](https://github.com/justafolk/Transcribo/flask app/templates/ss2.jpeg)
+[![Product Name Screen Shot][product-screenshot]]
+[![Product Name Screen Shot][product-screenshot1]]
 
 Transcribo basically trascribes Online video lectures/meetings and adds highlights/topics related to content present in the source!
 This project is can be useful in many interests.
@@ -198,4 +198,6 @@ Team - [@just_a_folk](https://twitter.com/just_a_folk) -
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/hel.png
+[product-screenshot]: https://github.com/justafolk/Transcribo/tree/main/flask%20app/templates/ss.jpeg
+[product-screenshot1]: https://github.com/justafolk/Transcribo/tree/main/flask%20app/templates/ss.jpeg
+
